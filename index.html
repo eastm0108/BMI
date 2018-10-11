@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="header d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <h1 class="col-sm-2  d-flex align-items-center justify-content-center logoPic">BMI Calculator</h1>
+                <div class="col-sm-offset-1 col-sm-6 enterInfo">
+                    <label  for="valueCm">身高 (cm)</label>
+                    <input id="valueCm" type="number" value="" placeholder="請輸入身高">
+                    <label  for="valueKg">體重 (kg)</label>
+                    <input id="valueKg" type="number" value="" placeholder="請輸入體重">
+                </div>
+                <div class="col-sm-offset-1 col-sm-2 d-flex align-items-center justify-content-center noPadding"><!--下一行 enterBtn 替換 enterBtn-* -->
+                    <div id="BMI-btn" class="d-flex flex-column align-items-center justify-content-center btn-Pos enterBtn">
+                        <p class="enterBtn-p">看結果</p>
+                        <!--替換上面enterBtn和下面標籤跟img值 renewPic-* -->
+                        <!-- <P class="showBtn-value">20.95</P>
+                        <p class="showBtn-BMItext">BMI</p>
+                        <img class="renewPic renewPic-ideal"src="./images/icons_loop.png" alt="重新計算">
+                        <p class="showBtn-text">理想</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>BMI 紀錄</h2>
+        <ul id="show-BMI-list"class="d-flex flex-column justify-content-center  list-unstyled showUl">
+        </ul>
+    </div>
+    <div class="footer">
+        <img class="footer-logo" src="images/BMICLogoGray.png" alt="footer-logo">
+    </div>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+@import"../bootstrap/scss/bootstrap.scss";
+$btnstart:#FFD366;
+$ideal:#86D73E;
+$tooLight:#31BAF9;
+$tooHeavy:#FF982D;
+$mildObesity:#FF6C02;
+$severeObesity:#FF1200;
+$blackGray:#424242;
+.header{
+    background-color: $blackGray;
+    padding: 100px;
+}
+.logoPic{
+    color: rgba(255,255,255,0);
+    margin: auto 0;
+    background-repeat: no-repeat;
+    height: 117px;
+    background-size: contain;
+    background-image: url(../images/BMICLogo.png);
+    padding: 0;
+    background-position: center center;
+}
+.enterInfo label{
+    margin-top: 10px;
+    font-weight: 600;
+    color: $btnstart;
+    width: 100%;
+    font-size: 18px;
+}
+.enterInfo input{
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.50);
+    padding: 4px 16px;
+}
+.enterBtn-p{
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+}
+.btn-Pos{
+    position: relative;
+}
+.enterBtn{
+    background-color: $btnstart;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    color: $blackGray;
+    font-size: 20px;
+    cursor: pointer;
+}
+.enterBtn:hover{
+    background: #FFD366;
+    box-shadow: 0 1px 6px 3px rgba(255,195,49,0.64);
+}
+.enterBtn:active{
+    background: #DEA921;
+}
+//顏色按鈕
+.enterBtn-ideal{
+    color: $ideal;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    cursor: pointer;
+    border: 6px solid $ideal;
+    font-size: 30px;
+}
+.enterBtn-tooLight{
+    color: $tooLight;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    cursor: pointer;
+    border: 6px solid $tooLight;
+    font-size: 30px;
+}
+.enterBtn-tooHeavy{
+    color: $tooHeavy;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    cursor: pointer;
+    border: 6px solid $tooHeavy;
+    font-size: 30px;
+}
+.enterBtn-mildObesity{
+    color: $mildObesity;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    cursor: pointer;
+    border: 6px solid $mildObesity;
+    font-size: 30px;
+}
+.enterBtn-severeObesity{
+    color: $severeObesity;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 110px ;
+    height: 110px;
+    cursor: pointer;
+    border: 6px solid $severeObesity;
+    font-size: 30px;
+}
+// 按下案鈕新增樣式
+.showBtn-value{
+    margin-bottom: 0;
+}
+.showBtn-BMItext{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.showBtn-text{
+    position: absolute;
+    bottom: -80px;
+    white-space: nowrap;
+}
+.renewPic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    border-radius: 50%;
+    border: 3px solid $blackGray;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.renewPic:hover{
+    height: 26px;
+    width: 26px;
+}
+//重新按鈕顏色
+.renewPic-ideal{
+    background-color: $ideal;
+}
+.renewPic-tooLight{
+    background-color: $tooLight;
+}
+.renewPic-tooHeavy{
+    background-color: $tooHeavy;
+}
+.renewPic-mildObesity{
+    background-color: $mildObesity;
+}
+.renewPic-severeObesity{
+    background-color: $severeObesity;
+}
+.noPadding{
+    padding-left: 0 ;
+    padding-right: 0 ;
+}
+.content h2{
+    margin-top: 48px;
+    color: $blackGray;
+    text-align: center;
+}
+.showUl{
+    padding: 0 0px;
+}
+.showLi{
+    margin: 15px auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.showLi p{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+.showLi a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+.showLi a:hover{
+    color: red;
+}
+.decideBar{
+    width: 7px;
+    height: 62px;
+    box-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+}
+.bar-ideal{
+    background-color: $ideal;
+}
+.bar-tooLight{
+    background-color: $tooLight;
+}
+.bar-tooHeavy{
+    background-color: $tooHeavy;
+}
+.bar-mildObesity{
+    background-color: $mildObesity;
+}
+.bar-severeObesity{
+    background-color: $severeObesity;
+}
+.li-BMI::before{
+    content: "BMI ";
+    font-size: 12px;
+}
+.bar-ideal::after{
+    content: "　";
+}
+.li-weight::before{
+    content: "weight ";
+    font-size: 12px;
+}
+.li-weight::after{
+    content: "kg";
+}
+.li-height::before{
+    content: "height ";
+    font-size: 12px;
+}
+.li-height::after{
+    content: "cm";
+}
+.showLi .li-date{
+    font-size: 12px;
+}
+.footer{
+    margin-top: 48px;
+    height: 90px;
+    background-color: $btnstart;
+}
+.footer-logo{
+    width: 55px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+}

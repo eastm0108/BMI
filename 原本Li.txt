@@ -1,0 +1,54 @@
+<li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-ideal"></div>
+                <p class="li-Title">理想</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-tooLight"></div>
+                <p class="li-Title">過輕</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-tooHeavy"></div>
+                <p class="li-Title">過重</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-mildObesity"></div>
+                <p class="li-Title">輕度肥胖</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-mildObesity"></div>
+                <p class="li-Title">中度肥胖</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-between showLi">
+                <div class="decideBar bar-severeObesity"></div>
+                <p class="li-Title">重度肥胖</p>
+                <p class="li-BMI">20.90</p>
+                <p class="li-weight">70</p>
+                <P class="li-height">180</P>
+                <p class="li-date">06-19-2017</p>
+                <a class="deleteBtn" href="#">×</a>
+            </li>

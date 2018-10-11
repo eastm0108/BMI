@@ -1,0 +1,12 @@
+ideal
+tooLight
+tooHeavy
+mildObesity
+severeObesity
+
+BMI<18.5--過輕
+18.5<=BIM<25--理想
+25<=BIM<30--過重
+30<=BMI<35--輕度肥胖
+35<=BMI<40--中度肥胖
+40<=BMI--重度肥胖
