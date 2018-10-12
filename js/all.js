@@ -14,7 +14,7 @@ function deleteLi(e) {
     e.preventDefault();
     if (e.target.nodeName !== 'A') { return }
     if(!(confirm('確定要刪除這筆資料嗎?'))){return}
-    var num = e.path[1].dataset.num
+    var num = parseInt(e.path[1].dataset.num);
     arrayData.splice(num, 1);
     checkList();
 }
