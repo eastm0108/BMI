@@ -12,7 +12,6 @@ var yyyy = today.getFullYear();
 //刪除
 function deleteLi(e) {
     e.preventDefault();
-    e.stopPropagation();
     if (e.target.nodeName !== 'A') { return }
     if(!(confirm('確定要刪除這筆資料嗎?'))){return}
     var num = e.path[1].dataset.num
