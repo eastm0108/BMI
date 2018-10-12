@@ -15,6 +15,7 @@ function deleteLi(e) {
     e.stopPropagation();
     var deleteBtn = document.querySelectorAll('.deleteBtn');
     if (e.target.nodeName !== 'A') { return }
+    if(!(confirm('確定要刪除這筆資料嗎?'))){return}
     var num = e.path[1].dataset.num
     console.log(num);
     arrayData.splice(num, 1);
